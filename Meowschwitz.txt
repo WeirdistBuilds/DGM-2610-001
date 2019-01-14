@@ -1,0 +1,5 @@
+Meowschwitz is an side-scrolling infinite runner game in which the player takes control of Jakob, a cat that was captured and imprisoned in a "catcentration camp" by an army of nazi dogs. During his brave escape, Jakob activates machines and sabotages the camp in order to buy time to run!
+
+Objective: Jakob's speed is slightly less than the dogs that are chasing him, so he'll need to flip switches, pull levers, destroy supports, knock down torches, and use the environment to eliminate the enemy dogs that are hot on his heels. Some cats remain imprisoned! if Jakob has time, he can activate releases to save his species and earn bonus points.
+
+Controls: Jakob activates objects that can be interacted with (depicted by little shinies) simply by moving through them. He can jump and run, but the screen does not scroll backwards.
