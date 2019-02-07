@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnemyTrap
   - PlayerTrap
+  - Ground
   layers:
   - Default
   - TransparentFX
