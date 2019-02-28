@@ -90,6 +90,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CameraController.cs" t="Include" />
           <e p="Jakob" t="Include">
             <e p="Flip.cs" t="Include" />
             <e p="Jump.cs" t="Include" />

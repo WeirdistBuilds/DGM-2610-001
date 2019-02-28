@@ -21,6 +21,7 @@ public class MoveCharacter : MonoBehaviour
 	void Update ()
 	{
 		position.x = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
+		position.z = 0;
 		
 		if (JumpCount > 0 && Input.GetButtonDown("Jump"))
 		{
