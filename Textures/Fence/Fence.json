@@ -33,7 +33,7 @@
         }
     },
     "texturesets": {
-        "lambert2SG": {
+        "Fence": {
             "shader": "Main shader"
         }
     }
