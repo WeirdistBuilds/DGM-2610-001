@@ -5,12 +5,13 @@ public class MoveCharacter : MonoBehaviour
 
 	private CharacterController controller;
 	private Vector3 position;
-	private float jumpStart;
+	private int jumpStart;
 	
-	public float MoveSpeed = 5;
-	public float Gravity = -9.81f;
-	public float JumpValue = 200;
-	public float JumpCount = 2;
+	public float MoveSpeed;
+	public float Gravity;
+	public float JumpValue;
+	public int JumpCount;
+	public GameObject EnemyJumper;
 	
 	void Start ()
 	{
@@ -21,12 +22,12 @@ public class MoveCharacter : MonoBehaviour
 	void Update ()
 	{
 		position.x = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
-		position.z = 0;
 		
 		if (JumpCount > 0 && Input.GetButtonDown("Jump"))
 		{
 			JumpCount--;
 			position.y = JumpValue * Time.deltaTime;
+			Instantiate(EnemyJumper, transform.position, transform.rotation);
 		}
 
 		if (controller.isGrounded)
