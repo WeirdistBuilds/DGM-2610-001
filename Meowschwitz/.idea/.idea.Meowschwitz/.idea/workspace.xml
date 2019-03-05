@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bec54a92-3ad9-4267-95ad-955c37c90273" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,105 +45,135 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeChanger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1551762786694" expanded="true" signature="60:266" ph="{...}" />
-                <marker date="1551762786694" expanded="true" signature="135:184" ph="{...}" />
-                <marker date="1551762786694" expanded="true" signature="202:264" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1551681316424" expanded="true" signature="272:330" ph="{...}" />
-                <marker date="1551681316424" expanded="true" signature="346:711" ph="{...}" />
-                <marker date="1551681316424" expanded="true" signature="407:504" ph="{...}" />
-                <marker date="1551681316424" expanded="true" signature="511:637" ph="{...}" />
-                <marker date="1551681316424" expanded="true" signature="757:902" ph="{...}" />
-                <marker date="1551681316424" expanded="true" signature="817:899" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <marker date="1551767106393" expanded="true" signature="68:144" ph="{...}" />
-                <marker date="1551767106393" expanded="true" signature="112:142" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="CameraController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="110" />
+              <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="114" />
               <folding>
-                <marker date="1551766769571" expanded="true" signature="66:806" ph="{...}" />
-                <marker date="1551766769571" expanded="true" signature="224:253" ph="{...}" />
-                <marker date="1551766769571" expanded="true" signature="270:804" ph="{...}" />
-                <marker date="1551766769571" expanded="true" signature="293:801" ph="{...}" />
-                <marker date="1551766769571" expanded="true" signature="466:572" ph="{...}" />
-                <marker date="1551766769571" expanded="true" signature="580:686" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="66:806" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="224:253" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="270:804" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="293:801" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="466:572" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="580:686" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoveCharacter.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveCharacter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
-                <marker date="1551767470495" expanded="true" signature="62:894" ph="{...}" />
-                <marker date="1551767470495" expanded="true" signature="304:387" ph="{...}" />
-                <marker date="1551767470495" expanded="true" signature="405:890" ph="{...}" />
-                <marker date="1551767470495" expanded="true" signature="536:751" ph="{...}" />
-                <marker date="1551767470495" expanded="true" signature="630:747" ph="{...}" />
-                <marker date="1551767470495" expanded="true" signature="781:815" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1551814404000" expanded="true" signature="88:448" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="225:283" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="301:444" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="333:365" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="372:405" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoveBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1551816834000" expanded="true" signature="70:251" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveWithAxis.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveWithAxis.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1551814404000" expanded="true" signature="75:446" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="136:444" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="209:285" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="292:342" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StayCentered.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/StayCentered.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state>
               <folding>
-                <marker date="1551762786718" expanded="true" signature="61:264" ph="{...}" />
-                <marker date="1551762786718" expanded="true" signature="109:156" ph="{...}" />
-                <marker date="1551762786718" expanded="true" signature="173:262" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="61:264" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="109:156" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="173:262" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoveSingleJump.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveSingleJump.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <marker date="1551814404000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1551814404000" expanded="true" signature="102:558" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="204:556" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="308:375" ph="{...}" />
+                <marker date="1551814404000" expanded="true" signature="425:452" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyJumpGenerator.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/EnemyJumpGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <marker date="1551817294000" expanded="true" signature="88:240" ph="{...}" />
+                <marker date="1551817294000" expanded="true" signature="176:238" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveEnemy.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+              <folding>
+                <marker date="1551805422000" expanded="true" signature="59:905" ph="{...}" />
+                <marker date="1551805422000" expanded="true" signature="273:331" ph="{...}" />
+                <marker date="1551805422000" expanded="true" signature="347:712" ph="{...}" />
+                <marker date="1551805422000" expanded="true" signature="408:505" ph="{...}" />
+                <marker date="1551805422000" expanded="true" signature="512:638" ph="{...}" />
+                <marker date="1551805422000" expanded="true" signature="758:903" ph="{...}" />
+                <marker date="1551805422000" expanded="true" signature="818:900" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flip.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/Flip.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1551762786364" expanded="true" signature="53:314" ph="{...}" />
-                <marker date="1551762786364" expanded="true" signature="103:312" ph="{...}" />
-                <marker date="1551762786364" expanded="true" signature="145:216" ph="{...}" />
-                <marker date="1551762786364" expanded="true" signature="256:309" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="53:314" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="103:312" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="145:216" ph="{...}" />
+                <marker date="1551798764000" expanded="true" signature="256:309" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -151,14 +182,16 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeChanger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/StayCentered.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/Flip.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/EnemyFlip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/EnemyJumpGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveSingleJump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveWithAxis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/Flip.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,7 +205,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jakob/MoveWithAxis.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jakob/MoveCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jakob/MoveSingleJump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jakob/MoveBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jakob/EnemyJumpGenerator.cs" />
       </list>
     </option>
   </component>
@@ -199,10 +237,9 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -230,11 +267,9 @@
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Attach Unity.Attach to Unity Editor" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -250,33 +285,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27066773" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27665246" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Unit Tests Coverage" order="4" />
     </layout>
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -292,36 +326,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/TimeChanger.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/Jump.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/EnemyFlip.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveEnemy.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeChanger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="323">
+          <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="114" />
           <folding>
-            <marker date="1551762786694" expanded="true" signature="60:266" ph="{...}" />
-            <marker date="1551762786694" expanded="true" signature="135:184" ph="{...}" />
-            <marker date="1551762786694" expanded="true" signature="202:264" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="66:806" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="224:253" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="270:804" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="293:801" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="466:572" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="580:686" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/StayCentered.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
           <folding>
-            <marker date="1551762786718" expanded="true" signature="61:264" ph="{...}" />
-            <marker date="1551762786718" expanded="true" signature="109:156" ph="{...}" />
-            <marker date="1551762786718" expanded="true" signature="173:262" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="59:905" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="273:331" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="347:712" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="408:505" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="512:638" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="758:903" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="818:900" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -330,24 +361,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1551762786364" expanded="true" signature="53:314" ph="{...}" />
-            <marker date="1551762786364" expanded="true" signature="103:312" ph="{...}" />
-            <marker date="1551762786364" expanded="true" signature="145:216" ph="{...}" />
-            <marker date="1551762786364" expanded="true" signature="256:309" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="53:314" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="103:312" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="145:216" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="256:309" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveCharacter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="748">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
           <folding>
-            <marker date="1551681316424" expanded="true" signature="272:330" ph="{...}" />
-            <marker date="1551681316424" expanded="true" signature="346:711" ph="{...}" />
-            <marker date="1551681316424" expanded="true" signature="407:504" ph="{...}" />
-            <marker date="1551681316424" expanded="true" signature="511:637" ph="{...}" />
-            <marker date="1551681316424" expanded="true" signature="757:902" ph="{...}" />
-            <marker date="1551681316424" expanded="true" signature="817:899" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1551814404000" expanded="true" signature="88:448" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="225:283" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="301:444" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="333:365" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="372:405" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -357,23 +389,24 @@
         <state relative-caret-position="323">
           <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="110" />
           <folding>
-            <marker date="1551766769571" expanded="true" signature="66:806" ph="{...}" />
-            <marker date="1551766769571" expanded="true" signature="224:253" ph="{...}" />
-            <marker date="1551766769571" expanded="true" signature="270:804" ph="{...}" />
-            <marker date="1551766769571" expanded="true" signature="293:801" ph="{...}" />
-            <marker date="1551766769571" expanded="true" signature="466:572" ph="{...}" />
-            <marker date="1551766769571" expanded="true" signature="580:686" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="66:806" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="224:253" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="270:804" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="293:801" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="466:572" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="580:686" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/Flip.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state>
           <folding>
-            <marker date="1551767106393" expanded="true" signature="68:144" ph="{...}" />
-            <marker date="1551767106393" expanded="true" signature="112:142" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="53:314" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="103:312" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="145:216" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="256:309" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -381,14 +414,136 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveCharacter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
-            <marker date="1551767470495" expanded="true" signature="62:894" ph="{...}" />
-            <marker date="1551767470495" expanded="true" signature="304:387" ph="{...}" />
-            <marker date="1551767470495" expanded="true" signature="405:890" ph="{...}" />
-            <marker date="1551767470495" expanded="true" signature="536:751" ph="{...}" />
-            <marker date="1551767470495" expanded="true" signature="630:747" ph="{...}" />
-            <marker date="1551767470495" expanded="true" signature="781:815" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1551814404000" expanded="true" signature="88:448" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="225:283" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="301:444" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="333:365" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="372:405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TimeChanger.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/Jump.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/EnemyFlip.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveEnemy.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/Flip.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1551798764000" expanded="true" signature="53:314" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="103:312" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="145:216" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="256:309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Basic/MoveEnemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <folding>
+            <marker date="1551805422000" expanded="true" signature="59:905" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="273:331" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="347:712" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="408:505" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="512:638" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="758:903" ph="{...}" />
+            <marker date="1551805422000" expanded="true" signature="818:900" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="114" />
+          <folding>
+            <marker date="1551798764000" expanded="true" signature="66:806" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="224:253" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="270:804" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="293:801" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="466:572" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="580:686" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveSingleJump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <marker date="1551814404000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1551814404000" expanded="true" signature="102:558" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="204:556" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="308:375" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="425:452" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/StayCentered.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1551798764000" expanded="true" signature="61:264" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="109:156" ph="{...}" />
+            <marker date="1551798764000" expanded="true" signature="173:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveCharacter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <marker date="1551814404000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1551814404000" expanded="true" signature="88:448" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="225:283" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="301:444" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="333:365" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="372:405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveWithAxis.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1551814404000" expanded="true" signature="75:446" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="136:444" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="209:285" ph="{...}" />
+            <marker date="1551814404000" expanded="true" signature="292:342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/MoveBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1551816834000" expanded="true" signature="70:251" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jakob/EnemyJumpGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <marker date="1551817294000" expanded="true" signature="88:240" ph="{...}" />
+            <marker date="1551817294000" expanded="true" signature="176:238" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,7 +122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 24.17
+      value: 24.156965
       objectReference: {fileID: 0}
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalPosition.y
@@ -130,23 +130,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: -0.0032728836
       objectReference: {fileID: 0}
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: -0.85295546
       objectReference: {fileID: 0}
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.5219838
       objectReference: {fileID: 0}
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_RootOrder
@@ -163,6 +163,10 @@ Prefab:
     - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645225597983916, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -117.06901
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ad5ad53173cf74e8b9e04d4eef3b95, type: 2}
@@ -3876,12 +3880,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6969dc5a342c10b47a613699bb6250ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 15
-  Gravity: -0.5
-  JumpValue: 25
-  JumpCount: 1
-  EnemyJumper: {fileID: 1568851079592322, guid: 01ccd4e80a8a6e844be91ccd9771b9fb,
-    type: 2}
+  OnGrounded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: a2e84e0e1fb81824a89c76164af7b206, type: 2}
+        m_MethodName: Move
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1781195300}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.CharacterController, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OffGrounded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 721d411f41d932345a5d3f609b058451, type: 2}
+        m_MethodName: Move
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1781195300}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.CharacterController, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CharacterMover: {fileID: 0}
 --- !u!4 &1781195299
 Transform:
   m_ObjectHideFlags: 0
@@ -4208,9 +4239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
-  MoveSpeed: 10
+  MoveSpeed: 15
   Gravity: -0.5
-  JumpValue: 15
+  JumpValue: 25
   Player: {fileID: 1781195296}
 --- !u!143 &1959299833
 CharacterController:

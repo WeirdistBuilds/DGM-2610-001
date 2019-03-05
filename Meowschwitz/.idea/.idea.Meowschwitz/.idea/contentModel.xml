@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Klee\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Klee\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Meowschwitz.-1237342812.00" t="ExcludeRecursive" />
-    <e p="E:\Work\School Work\2019 Spring\DGM-2610-001\Meowschwitz" t="IncludeRecursive">
+    <e p="C:\Users\10285843\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Meowschwitz.-1282375626.00" t="ExcludeRecursive" />
+    <e p="E:\Git Repos\DGM-2610-001\Meowschwitz" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Ludiq" t="Include">
@@ -92,7 +91,6 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
-          <e p="DestroyAfterSeconds.cs" t="Include" />
           <e p="Enemies" t="Include">
             <e p="Basic" t="Include">
               <e p="EnemyFlip.cs" t="Include" />
@@ -100,9 +98,13 @@
             </e>
           </e>
           <e p="Jakob" t="Include">
+            <e p="EnemyJumpGenerator.cs" t="Include" />
             <e p="Flip.cs" t="Include" />
             <e p="Jump.cs" t="Include" />
+            <e p="MoveBase.cs" t="Include" />
             <e p="MoveCharacter.cs" t="Include" />
+            <e p="MoveSingleJump.cs" t="Include" />
+            <e p="MoveWithAxis.cs" t="Include" />
             <e p="StayCentered.cs" t="Include" />
           </e>
           <e p="TimeChanger.cs" t="Include" />
