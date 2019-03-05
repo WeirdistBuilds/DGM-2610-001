@@ -27,7 +27,11 @@ public class MoveCharacter : MonoBehaviour
 		{
 			JumpCount--;
 			position.y = JumpValue * Time.deltaTime;
-			Instantiate(EnemyJumper, transform.position, transform.rotation);
+			if (controller.isGrounded)
+			{
+				var jumper = Instantiate(EnemyJumper, transform.position, transform.rotation);
+				Destroy(jumper, 5);
+			}
 		}
 
 		if (controller.isGrounded)

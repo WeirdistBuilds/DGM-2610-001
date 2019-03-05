@@ -17,7 +17,7 @@ public class CameraController : MonoBehaviour {
 	{
 		if (followTarget)
 		{
-			focusPosition = new Vector3(focus.transform.position.x, focus.transform.position.y + leadSpace, transform.position.z);
+			focusPosition = new Vector3(focus.transform.position.x, focus.transform.position.y + leadSpace * 3, transform.position.z);
 
 			if (focus.transform.localScale.x > 0f)
 			{
