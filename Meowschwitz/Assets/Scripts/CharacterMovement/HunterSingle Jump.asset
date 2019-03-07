@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6bab78bffbb0d4d9313968bbd1cfc8, type: 3}
   m_Name: HunterSingle Jump
   m_EditorClassIdentifier: 
-  Speed: 18
-  JumpForce: 0.4
+  Speed: 15
+  JumpForce: 0.5
   Gravity: -1
   shouldJump: {fileID: 11400000, guid: fd532f1235d28cc4c94373bac6dc2201, type: 2}

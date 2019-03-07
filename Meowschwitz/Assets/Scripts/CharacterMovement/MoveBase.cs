@@ -9,5 +9,4 @@ public abstract class MoveBase : ScriptableObject {
 	public float Gravity = -3;
 
 	public abstract void Move(CharacterController controller);
-
 }

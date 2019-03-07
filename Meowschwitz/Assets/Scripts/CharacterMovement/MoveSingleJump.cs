@@ -24,4 +24,6 @@ public class MoveSingleJump : MoveBase
 		position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
 		controller.Move(position);
 	}
+	
+	
 }

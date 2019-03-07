@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cc8252b14d674d9212fa0a955f52f, type: 3}
   m_Name: Jakob
   m_EditorClassIdentifier: 
-  Speed: 20
-  JumpForce: 0.4
+  Speed: 15
+  JumpForce: 0.5
   Gravity: -1
   EnemyJumpGenerator:
     m_PersistentCalls:

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4080,7 +4080,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4989282485787628, guid: 278da5a2f00a95b43accbe4391b7e763, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 33
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4989282485787628, guid: 278da5a2f00a95b43accbe4391b7e763, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4317,7 +4317,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1673833660}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 405101736}
@@ -5075,10 +5075,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1959299834}
   - component: {fileID: 1959299833}
+  - component: {fileID: 1959299836}
   - component: {fileID: 1959299831}
   - component: {fileID: 1959299835}
   - component: {fileID: 1959299832}
-  - component: {fileID: 1959299836}
+  - component: {fileID: 1959299837}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -5148,7 +5149,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1959299830}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -70, y: 1, z: 0}
+  m_LocalPosition: {x: -111.7, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1673833661}
@@ -5185,10 +5186,21 @@ BoxCollider:
   m_GameObject: {fileID: 1959299830}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0.8, y: -0.7, z: 0}
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
+  m_Center: {x: 1.2, y: -0.7, z: 0}
+--- !u!114 &1959299837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959299830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76eb5ad518d29547b8c6746223bec71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2019053276
 Prefab:
   m_ObjectHideFlags: 0
