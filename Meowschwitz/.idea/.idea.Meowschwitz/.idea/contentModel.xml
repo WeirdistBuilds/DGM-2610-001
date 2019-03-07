@@ -6,6 +6,7 @@
     <e p="E:\Work\School Work\2019 Spring\DGM-2610-001\Meowschwitz" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="KillBox.cs" t="Include" />
         <e p="Ludiq" t="Include">
           <e p="Assemblies" t="Include">
             <e p="Bolt.Core.Editor.xml" t="Include" />
@@ -101,10 +102,12 @@
             <e p="MoveEnemy.cs" t="Include" />
             <e p="MoveEnemySingleJump.cs" t="Include" />
             <e p="MoveSingleJump.cs" t="Include" />
+            <e p="MoveTruck.cs" t="Include" />
             <e p="MoveWithAxis.cs" t="Include" />
             <e p="PositionReader.cs" t="Include" />
             <e p="StayCentered.cs" t="Include" />
           </e>
+          <e p="ChildActivator.cs" t="Include" />
           <e p="Events" t="Include">
             <e p="EventTriggerEnter.cs" t="Include" />
             <e p="EventTriggerExit.cs" t="Include" />
