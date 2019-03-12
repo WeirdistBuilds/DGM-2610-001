@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1018,8 +1018,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8.25, y: 6, z: 1.25}
-  m_Center: {x: 0, y: 3.5, z: 13}
+  m_Size: {x: 8.25, y: 8, z: 1.25}
+  m_Center: {x: 0, y: 2.5, z: 13}
 --- !u!1001 &357865509
 Prefab:
   m_ObjectHideFlags: 0
@@ -3758,14 +3758,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1490873849}
-  m_LocalRotation: {x: 0.08682413, y: 0.08682413, z: -0.0075961305, w: 0.99240386}
-  m_LocalPosition: {x: -20, y: 20, z: -30}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -102.7, y: 8.7, z: -30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 299696727}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 10, y: 10, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1490873854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4592,7 +4592,6 @@ GameObject:
   - component: {fileID: 1781195300}
   - component: {fileID: 1781195298}
   - component: {fileID: 1781195301}
-  - component: {fileID: 1781195297}
   - component: {fileID: 1781195302}
   m_Layer: 0
   m_Name: Player
@@ -4601,17 +4600,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1781195297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1781195296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dce6b7738c51f414192649ae7e535393, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1781195298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4633,7 +4621,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  CharacterMover: {fileID: 11400000, guid: a2e84e0e1fb81824a89c76164af7b206, type: 2}
+  CharacterMover: {fileID: 11400000, guid: 203b2b0f841adc246a25515e918b7601, type: 2}
 --- !u!4 &1781195299
 Transform:
   m_ObjectHideFlags: 0
@@ -4641,7 +4629,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1781195296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 1, z: 0}
+  m_LocalPosition: {x: -91.3, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1914528420}
@@ -4688,6 +4676,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyPositionSO: {fileID: 11400000, guid: ff777492c274fec478de3a52c6909c70, type: 2}
+  DashLimit: {fileID: 11400000, guid: 68c61d0e8d28fa24991a61a31cdf8cda, type: 2}
+  DashDistance: 2
 --- !u!1 &1808152813
 GameObject:
   m_ObjectHideFlags: 0
@@ -4884,7 +4874,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1914528419}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1832516313}
@@ -5188,8 +5178,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.4, z: 0.4}
-  m_Center: {x: 1.2, y: -0.7, z: 0}
+  m_Size: {x: 0.35087585, y: 1.9140037, z: 0.4}
+  m_Center: {x: 1.2385864, y: 0.05700189, z: 0}
 --- !u!114 &1959299837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5198,7 +5188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1959299830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e76eb5ad518d29547b8c6746223bec71, type: 3}
+  m_Script: {fileID: 11500000, guid: 350ffd6aab9b5d84487f26da6f7ff355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2019053276

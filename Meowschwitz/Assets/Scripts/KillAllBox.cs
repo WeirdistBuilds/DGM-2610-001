@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class KillBox : MonoBehaviour {
+public class KillAllBox : MonoBehaviour {
     
     private void OnTriggerEnter(Collider other)
     {

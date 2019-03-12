@@ -9,10 +9,5 @@ public class KillPlayerBox : MonoBehaviour {
         {
             SceneManager.LoadScene(0);
         }
-        else if (other.CompareTag("Enemy"))
-        {
-            Destroy(other.gameObject); //temp until activate kill event
-        }
     }
-    
 }

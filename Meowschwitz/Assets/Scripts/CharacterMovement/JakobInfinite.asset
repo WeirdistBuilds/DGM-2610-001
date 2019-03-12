@@ -8,8 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae6cc8252b14d674d9212fa0a955f52f, type: 3}
-  m_Name: Jakob
+  m_Script: {fileID: 11500000, guid: e7bd5eb973bd4014a882e5520d5e87e7, type: 3}
+  m_Name: JakobInfinite
   m_EditorClassIdentifier: 
   Speed: 15
   JumpForce: 0.4
@@ -30,3 +30,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  IsDashing: {fileID: 11400000, guid: bfd4ae1199d8aec439c08b24b03a305f, type: 2}
+  DashStart: {fileID: 11400000, guid: 052826eaa1c04f14984d78f039782eb7, type: 2}
+  DashEnd: {fileID: 11400000, guid: 68c61d0e8d28fa24991a61a31cdf8cda, type: 2}
