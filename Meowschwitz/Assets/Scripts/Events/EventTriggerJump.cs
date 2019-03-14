@@ -8,14 +8,12 @@ public class EventTriggerJump : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 		if(other.CompareTag("Jump"))
-		Event.Invoke();
-		Debug.Log("TriggerEnter" + other.tag);
+			Event.Invoke();
 	}
 	
 	private void OnTriggerExit(Collider other)
 	{
 		if(other.CompareTag("Jump"))
 			Event.Invoke();
-		Debug.Log("TriggerExit" + other.tag);
 	}
 }
