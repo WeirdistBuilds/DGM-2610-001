@@ -5,7 +5,7 @@ public class MoveEnemySingleJump : MoveBase
 {
 	public SOBool ShouldJump;
 	public SOBool GoSlow;
-
+	
 	public override void Move(CharacterController controller)
 	{
 		position.y += Gravity * Time.deltaTime;

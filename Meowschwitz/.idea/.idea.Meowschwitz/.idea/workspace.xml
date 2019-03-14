@@ -46,22 +46,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TrapTrigger.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/TrapTrigger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding>
-                <marker date="1552572694000" expanded="false" signature="6:44" ph="..." />
-                <marker date="1552572694000" expanded="true" signature="86:552" ph="{...}" />
-                <marker date="1552572694000" expanded="true" signature="209:345" ph="{...}" />
-                <marker date="1552572694000" expanded="true" signature="391:550" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mixer.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mixer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Traps/Mixer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -78,7 +63,8 @@
       <file leaf-file-name="SlowEnemy.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Traps/SlowEnemy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <marker date="1552572694000" expanded="true" signature="58:322" ph="{...}" />
                 <marker date="1552572694000" expanded="true" signature="130:201" ph="{...}" />
@@ -137,8 +123,28 @@
       <file leaf-file-name="MoveEnemySingleJump.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/HunterController/MoveEnemySingleJump.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="136">
+              <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+              <folding>
+                <marker date="1552589932000" expanded="true" signature="81:570" ph="{...}" />
+                <marker date="1552589932000" expanded="true" signature="194:568" ph="{...}" />
+                <marker date="1552589932000" expanded="true" signature="291:326" ph="{...}" />
+                <marker date="1552589932000" expanded="true" signature="376:403" ph="{...}" />
+                <marker date="1552589932000" expanded="true" signature="424:478" ph="{...}" />
+                <marker date="1552589932000" expanded="true" signature="485:533" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SOBool.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjectScripts/SOBool.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding>
+                <marker date="1551967574000" expanded="true" signature="138:165" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,10 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventTriggerJump.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EventTriggerJump.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventTriggerJump.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="68">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <marker date="1552572694000" expanded="false" signature="6:44" ph="..." />
                 <marker date="1552572694000" expanded="true" signature="91:325" ph="{...}" />
@@ -185,6 +192,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillPlayerBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/StayCentered.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/PlayerController/MoveSingleJumpInfinite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjectScripts/SOBool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillAllBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/MoveBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -239,10 +247,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement/PlayerController/DashPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventTriggerJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Traps/SlowEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement/HunterController/MoveEnemySingleJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement/MoveCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/TrapTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Traps/Mixer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement/HunterController/MoveEnemySingleJump.cs" />
       </list>
     </option>
   </component>
@@ -257,6 +265,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -269,8 +279,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer" />
-      <pane id="Scratches" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -319,7 +327,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32302773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3304904" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
@@ -358,19 +366,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/TrapTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1552572694000" expanded="false" signature="6:44" ph="..." />
-            <marker date="1552572694000" expanded="true" signature="86:552" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="209:345" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="391:550" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/HunterController/MoveEnemySingleJump.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -490,38 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventTriggerJump.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1552572694000" expanded="false" signature="6:44" ph="..." />
-            <marker date="1552572694000" expanded="true" signature="91:325" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="165:221" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="267:323" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Traps/SlowEnemy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1552572694000" expanded="true" signature="58:322" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="130:201" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="166:198" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="246:318" ph="{...}" />
-            <marker date="1552572694000" expanded="true" signature="282:315" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/HunterController/MoveEnemySingleJump.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/MoveCharacter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -581,6 +544,58 @@
             <marker date="1552579946000" expanded="true" signature="54:312" ph="{...}" />
             <marker date="1552579946000" expanded="true" signature="139:227" ph="{...}" />
             <marker date="1552579946000" expanded="true" signature="249:310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjectScripts/SOBool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <marker date="1551967574000" expanded="true" signature="138:165" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Traps/SlowEnemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1552572694000" expanded="true" signature="58:322" ph="{...}" />
+            <marker date="1552572694000" expanded="true" signature="130:201" ph="{...}" />
+            <marker date="1552572694000" expanded="true" signature="166:198" ph="{...}" />
+            <marker date="1552572694000" expanded="true" signature="246:318" ph="{...}" />
+            <marker date="1552572694000" expanded="true" signature="282:315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement/HunterController/MoveEnemySingleJump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <marker date="1552589932000" expanded="true" signature="81:570" ph="{...}" />
+            <marker date="1552589932000" expanded="true" signature="194:568" ph="{...}" />
+            <marker date="1552589932000" expanded="true" signature="291:326" ph="{...}" />
+            <marker date="1552589932000" expanded="true" signature="376:403" ph="{...}" />
+            <marker date="1552589932000" expanded="true" signature="424:478" ph="{...}" />
+            <marker date="1552589932000" expanded="true" signature="485:533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventTriggerJump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <marker date="1552572694000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1552572694000" expanded="true" signature="91:325" ph="{...}" />
+            <marker date="1552572694000" expanded="true" signature="165:221" ph="{...}" />
+            <marker date="1552572694000" expanded="true" signature="267:323" ph="{...}" />
           </folding>
         </state>
       </provider>
