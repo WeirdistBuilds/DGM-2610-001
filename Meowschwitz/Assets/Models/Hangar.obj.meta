@@ -47,7 +47,42 @@ ModelImporter:
     4300008: Lamp
     4300010: UpperBoard
     4300012: Vent
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bollard1Mat
+    second: {fileID: 2100000, guid: ddd790eed78507c43ac2e9fcd2dbeb28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GateMat
+    second: {fileID: 2100000, guid: ddd790eed78507c43ac2e9fcd2dbeb28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HangarMat
+    second: {fileID: 2100000, guid: ddd790eed78507c43ac2e9fcd2dbeb28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HangarShapeHiddenFacesSet_defaultHideFaceDataSet_HangarMat
+    second: {fileID: 2100000, guid: ddd790eed78507c43ac2e9fcd2dbeb28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampMat
+    second: {fileID: 2100000, guid: ddd790eed78507c43ac2e9fcd2dbeb28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UpperBoardMat
+    second: {fileID: 2100000, guid: ddd790eed78507c43ac2e9fcd2dbeb28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VentMat
+    second: {fileID: 2100000, guid: ddd790eed78507c43ac2e9fcd2dbeb28, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

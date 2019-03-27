@@ -29,7 +29,27 @@ ModelImporter:
     4300002: Boards4
     4300004: Boards5
     4300006: Box
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boards3Mat
+    second: {fileID: 2100000, guid: 59582bfbc9448bc4ab916a6037ac4d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boards4Mat
+    second: {fileID: 2100000, guid: 59582bfbc9448bc4ab916a6037ac4d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boards5Mat
+    second: {fileID: 2100000, guid: 59582bfbc9448bc4ab916a6037ac4d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoxMat
+    second: {fileID: 2100000, guid: 59582bfbc9448bc4ab916a6037ac4d65, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -23,7 +23,22 @@ ModelImporter:
     4300000: Barrel
     4300002: PlugBig
     4300004: PlugSmall
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarrelMat
+    second: {fileID: 2100000, guid: cabce87c42ef8b64ca5481a335784410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlugBigMat
+    second: {fileID: 2100000, guid: cabce87c42ef8b64ca5481a335784410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlugSmallMat
+    second: {fileID: 2100000, guid: cabce87c42ef8b64ca5481a335784410, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

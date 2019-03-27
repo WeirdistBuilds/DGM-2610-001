@@ -47,7 +47,42 @@ ModelImporter:
     4300008: Knob3
     4300010: Knob4
     4300012: Pole
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoardLowerMat
+    second: {fileID: 2100000, guid: 70f4a51cc4b424e4eb299968794b3ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoardUpperMat
+    second: {fileID: 2100000, guid: 70f4a51cc4b424e4eb299968794b3ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knob1Mat
+    second: {fileID: 2100000, guid: 70f4a51cc4b424e4eb299968794b3ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knob2Mat
+    second: {fileID: 2100000, guid: 70f4a51cc4b424e4eb299968794b3ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knob3Mat
+    second: {fileID: 2100000, guid: 70f4a51cc4b424e4eb299968794b3ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knob4Mat
+    second: {fileID: 2100000, guid: 70f4a51cc4b424e4eb299968794b3ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PoleMat
+    second: {fileID: 2100000, guid: 70f4a51cc4b424e4eb299968794b3ded, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

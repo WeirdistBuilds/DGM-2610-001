@@ -17,7 +17,17 @@ ModelImporter:
     3300002: Trunk
     4300000: Roots1
     4300002: Trunk
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roots1Mat
+    second: {fileID: 2100000, guid: 6000353d8b100b145aa0cfd1ea457416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrunkMat
+    second: {fileID: 2100000, guid: 6000353d8b100b145aa0cfd1ea457416, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

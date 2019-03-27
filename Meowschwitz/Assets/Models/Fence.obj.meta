@@ -17,7 +17,17 @@ ModelImporter:
     3300002: Fence
     4300000: BarbedWire
     4300002: Fence
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarbedWireMat
+    second: {fileID: 2100000, guid: fe1502d9806b0784a8a6d06e15056979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FenceMat
+    second: {fileID: 2100000, guid: fe1502d9806b0784a8a6d06e15056979, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
