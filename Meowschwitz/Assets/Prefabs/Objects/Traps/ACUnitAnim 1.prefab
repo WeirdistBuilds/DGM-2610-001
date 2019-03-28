@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 114547416725450610}
   - component: {fileID: 114613652015913166}
   m_Layer: 10
-  m_Name: ACUnitAnim
+  m_Name: ACUnitAnim 1
   m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
