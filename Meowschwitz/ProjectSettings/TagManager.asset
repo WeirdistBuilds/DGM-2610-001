@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Jump
   - Enemy
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -17,10 +18,10 @@ TagManager:
   - 
   - PostProcessing
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - Hinderance
+  - Player
+  - Enemy
+  - PassThrough
   - 
   - 
   - 

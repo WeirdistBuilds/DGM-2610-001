@@ -121,8 +121,8 @@
             <e p="EventTriggerJump.cs" t="Include" />
             <e p="TrapTrigger.cs" t="Include" />
           </e>
-          <e p="KillAllBox.cs" t="Include" />
-          <e p="KillPlayerBox.cs" t="Include" />
+          <e p="LayerShifter.cs" t="Include" />
+          <e p="Popper.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOBool.cs" t="Include" />
             <e p="SOBoolChanger.cs" t="Include" />
@@ -131,7 +131,10 @@
           </e>
           <e p="TimeChanger.cs" t="Include" />
           <e p="Traps" t="Include">
-            <e p="Mixer.cs" t="Include" />
+            <e p="DashActivator.cs" t="Include" />
+            <e p="KillAllBox.cs" t="Include" />
+            <e p="KillEnemyBox.cs" t="Include" />
+            <e p="KillPlayerBox.cs" t="Include" />
             <e p="SlowEnemy.cs" t="Include" />
           </e>
         </e>
