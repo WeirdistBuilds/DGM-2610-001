@@ -53,6 +53,8 @@ GameObject:
   - component: {fileID: 4549620128336420}
   - component: {fileID: 33928953125730880}
   - component: {fileID: 23336300065267946}
+  - component: {fileID: 65256468692093030}
+  - component: {fileID: 114182208634070270}
   m_Layer: 0
   m_Name: Truck
   m_TagString: Untagged
@@ -139,7 +141,7 @@ GameObject:
   - component: {fileID: 95202639703000496}
   - component: {fileID: 114951409865525614}
   - component: {fileID: 114947537125025576}
-  - component: {fileID: 65595091470406362}
+  - component: {fileID: 65877031025167620}
   m_Layer: 0
   m_Name: TruckAnim
   m_TagString: Untagged
@@ -194,7 +196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1074513742119260}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 23}
+  m_LocalPosition: {x: 2, y: 0, z: 20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4164482013660190}
@@ -222,7 +224,7 @@ Transform:
   m_GameObject: {fileID: 1376442612728586}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 4362826566214194}
   - {fileID: 4821568138239060}
@@ -510,7 +512,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1311996352771534}
   m_Mesh: {fileID: 4300008, guid: f0a0b5dc35fc07c478e439e026cca121, type: 3}
---- !u!65 &65595091470406362
+--- !u!65 &65256468692093030
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1376442612728586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 14, z: 23}
+  m_Center: {x: 0, y: 7, z: 2.5}
+--- !u!65 &65877031025167620
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -520,8 +534,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 8, z: 50}
-  m_Center: {x: 0, y: 5, z: 40}
+  m_Size: {x: 4.3, y: 10, z: 20}
+  m_Center: {x: 0, y: 5, z: 20}
 --- !u!95 &95202639703000496
 Animator:
   serializedVersion: 3
@@ -540,6 +554,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114182208634070270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1376442612728586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76eb5ad518d29547b8c6746223bec71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114947537125025576
 MonoBehaviour:
   m_ObjectHideFlags: 1

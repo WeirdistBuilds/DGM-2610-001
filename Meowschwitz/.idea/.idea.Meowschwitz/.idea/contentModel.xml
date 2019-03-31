@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10285843\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Meowschwitz.-1282375626.00" t="ExcludeRecursive" />
-    <e p="E:\Git Repos\DGM-2610-001\Meowschwitz" t="IncludeRecursive">
+    <e p="C:\Users\Klee\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Klee\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Meowschwitz.-1237342812.00" t="ExcludeRecursive" />
+    <e p="E:\Work\School Work\2019 Spring\DGM-2610-001\Meowschwitz" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Ludiq" t="Include">
@@ -114,6 +115,7 @@
           </e>
           <e p="Environmental" t="Include">
             <e p="CameraController.cs" t="Include" />
+            <e p="LevelGenerator.cs" t="Include" />
             <e p="ParallaxController.cs" t="Include" />
             <e p="TimeChanger.cs" t="Include" />
           </e>
@@ -123,7 +125,6 @@
             <e p="EventTriggerJump.cs" t="Include" />
             <e p="TrapTrigger.cs" t="Include" />
           </e>
-          <e p="LayerShifter.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="ChildActivator.cs" t="Include" />
             <e p="Popper.cs" t="Include" />
@@ -134,9 +135,12 @@
           </e>
           <e p="Traps" t="Include">
             <e p="DashActivator.cs" t="Include" />
+            <e p="HunterDetector.cs" t="Include" />
+            <e p="HunterGenerator.cs" t="Include" />
             <e p="KillAllBox.cs" t="Include" />
             <e p="KillEnemyBox.cs" t="Include" />
             <e p="KillPlayerBox.cs" t="Include" />
+            <e p="LayerShifter.cs" t="Include" />
             <e p="SlowEnemy.cs" t="Include" />
           </e>
         </e>
