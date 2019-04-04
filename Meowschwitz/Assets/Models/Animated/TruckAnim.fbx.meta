@@ -1,42 +1,53 @@
 fileFormatVersion: 2
-guid: f0a0b5dc35fc07c478e439e026cca121
+guid: ee38698a66a2bb141a5695df9654e392
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: BackTire
     100002: BackTires
-    100004: BrakeLights
-    100006: FrontTires
-    100008: Headlights
-    100010: Truck
-    100012: //RootNode
+    100004: BrakeLightCases
+    100006: BrakeLights
+    100008: FrontTires
+    100010: HeadLightCases
+    100012: HeadLights
+    100014: Truck
+    100016: //RootNode
     400000: BackTire
     400002: BackTires
-    400004: BrakeLights
-    400006: FrontTires
-    400008: Headlights
-    400010: Truck
-    400012: //RootNode
+    400004: BrakeLightCases
+    400006: BrakeLights
+    400008: FrontTires
+    400010: HeadLightCases
+    400012: HeadLights
+    400014: Truck
+    400016: //RootNode
     2100000: Truck2
     2100002: Tires1
+    2100004: lambert2
     2300000: BackTire
     2300002: BackTires
-    2300004: BrakeLights
-    2300006: FrontTires
-    2300008: Headlights
-    2300010: Truck
+    2300004: BrakeLightCases
+    2300006: BrakeLights
+    2300008: FrontTires
+    2300010: HeadLightCases
+    2300012: HeadLights
+    2300014: Truck
     3300000: BackTire
     3300002: BackTires
-    3300004: BrakeLights
-    3300006: FrontTires
-    3300008: Headlights
-    3300010: Truck
+    3300004: BrakeLightCases
+    3300006: BrakeLights
+    3300008: FrontTires
+    3300010: HeadLightCases
+    3300012: HeadLights
+    3300014: Truck
     4300000: Truck
     4300002: FrontTires
     4300004: BackTires
-    4300006: Headlights
-    4300008: BrakeLights
-    4300010: BackTire
+    4300006: BrakeLightCases
+    4300008: BackTire
+    4300010: BrakeLights
+    4300012: HeadLightCases
+    4300014: HeadLights
     7400000: TruckIdle
     7400002: TruckTriggered
     7400004: TruckEnd
@@ -52,6 +63,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Truck2
     second: {fileID: 2100000, guid: 65fb199f5426a574db20fd63ad27aab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: f486bdec73221b14196e0d8373d16e3c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -146,7 +162,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

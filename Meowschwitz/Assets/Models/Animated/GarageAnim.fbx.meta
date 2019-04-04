@@ -1,62 +1,67 @@
 fileFormatVersion: 2
-guid: af1d1cdfc1c8b8147823c24a16a5fd06
+guid: b152b01b364ba994595ae18763afc81e
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: back
     100002: Building
-    100004: //RootNode
-    100006: GateBottom
-    100008: GateTop
-    100010: Lamp
-    100012: polySurface2
-    100014: polySurface3
-    100016: polySurface4
-    100018: polySurface6
-    100020: polySurface7
-    100022: UpperBoard
-    100024: VentLeft
-    100026: VentTop
+    100004: Bulb
+    100006: //RootNode
+    100008: GateBottom
+    100010: GateTop
+    100012: Lamp
+    100014: polySurface2
+    100016: polySurface3
+    100018: polySurface4
+    100020: polySurface6
+    100022: polySurface7
+    100024: UpperBoard
+    100026: VentLeft
+    100028: VentTop
     400000: back
     400002: Building
-    400004: //RootNode
-    400006: GateBottom
-    400008: GateTop
-    400010: Lamp
-    400012: polySurface2
-    400014: polySurface3
-    400016: polySurface4
-    400018: polySurface6
-    400020: polySurface7
-    400022: UpperBoard
-    400024: VentLeft
-    400026: VentTop
+    400004: Bulb
+    400006: //RootNode
+    400008: GateBottom
+    400010: GateTop
+    400012: Lamp
+    400014: polySurface2
+    400016: polySurface3
+    400018: polySurface4
+    400020: polySurface6
+    400022: polySurface7
+    400024: UpperBoard
+    400026: VentLeft
+    400028: VentTop
     2000000: back
     2100000: lambert1
+    2100002: Emissive
     2300000: Building
-    2300002: GateBottom
-    2300004: GateTop
-    2300006: Lamp
-    2300008: polySurface2
-    2300010: polySurface3
-    2300012: polySurface4
-    2300014: polySurface6
-    2300016: polySurface7
-    2300018: UpperBoard
-    2300020: VentLeft
-    2300022: VentTop
+    2300002: Bulb
+    2300004: GateBottom
+    2300006: GateTop
+    2300008: Lamp
+    2300010: polySurface2
+    2300012: polySurface3
+    2300014: polySurface4
+    2300016: polySurface6
+    2300018: polySurface7
+    2300020: UpperBoard
+    2300022: VentLeft
+    2300024: VentTop
     3300000: Building
-    3300002: GateBottom
-    3300004: GateTop
-    3300006: Lamp
-    3300008: polySurface2
-    3300010: polySurface3
-    3300012: polySurface4
-    3300014: polySurface6
-    3300016: polySurface7
-    3300018: UpperBoard
-    3300020: VentLeft
-    3300022: VentTop
+    3300002: Bulb
+    3300004: GateBottom
+    3300006: GateTop
+    3300008: Lamp
+    3300010: polySurface2
+    3300012: polySurface3
+    3300014: polySurface4
+    3300016: polySurface6
+    3300018: polySurface7
+    3300020: UpperBoard
+    3300022: VentLeft
+    3300024: VentTop
     4300000: Building
     4300002: Lamp
     4300004: VentTop
@@ -69,10 +74,16 @@ ModelImporter:
     4300018: polySurface2
     4300020: GateTop
     4300022: GateBottom
+    4300024: Bulb
     7400000: GarageTriggered
     7400002: GarageIdle
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emissive
+    second: {fileID: 2100000, guid: f486bdec73221b14196e0d8373d16e3c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -144,7 +155,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
