@@ -2,7 +2,7 @@
 
 public class CameraController : MonoBehaviour {
 
-	public GameObject focus;
+	public SOGameObject focus;
 	public float leadSpace;
 	public float transitionTime;
 	public bool followTarget;
@@ -17,9 +17,9 @@ public class CameraController : MonoBehaviour {
 	{
 		if (followTarget)
 		{
-			focusPosition = new Vector3(focus.transform.position.x, focus.transform.position.y + leadSpace * 3, transform.position.z);
+			focusPosition = new Vector3(focus.gameObject.transform.position.x, focus.gameObject.transform.position.y + leadSpace * 3, transform.position.z);
 
-			if (focus.transform.localScale.x > 0f)
+			if (focus.gameObject.transform.localScale.x > 0f)
 			{
 				focusPosition = new Vector3(focusPosition.x + leadSpace, focusPosition.y, focusPosition.z);
 			}
@@ -29,7 +29,6 @@ public class CameraController : MonoBehaviour {
 			}
 
 			transform.position = Vector3.Lerp(transform.position, focusPosition, transitionTime * Time.deltaTime);
-			
 		}
 	}
 }

@@ -102,6 +102,7 @@
             <e p="MoveEnemy.cs" t="Include" />
             <e p="MoveWithAxis.cs" t="Include" />
             <e p="PlayerController" t="Include">
+              <e p="CarrierPop.cs" t="Include" />
               <e p="DashPlayer.cs" t="Include" />
               <e p="FlipPlayer.cs" t="Include" />
               <e p="MoveSingleJump.cs" t="Include" />
@@ -131,6 +132,7 @@
             <e p="SOBool.cs" t="Include" />
             <e p="SOBoolChanger.cs" t="Include" />
             <e p="SOFloat.cs" t="Include" />
+            <e p="SOGameObject.cs" t="Include" />
             <e p="SOVector3.cs" t="Include" />
           </e>
           <e p="Traps" t="Include">
