@@ -70,6 +70,8 @@ GameObject:
   - component: {fileID: 4364690621093358}
   - component: {fileID: 33853860952414852}
   - component: {fileID: 23276359866722314}
+  - component: {fileID: 65362678924999158}
+  - component: {fileID: 114996022256150438}
   m_Layer: 0
   m_Name: Oil
   m_TagString: Untagged
@@ -105,7 +107,7 @@ GameObject:
   - component: {fileID: 114365445662386708}
   - component: {fileID: 65613364616734596}
   m_Layer: 0
-  m_Name: BarrelAnim
+  m_Name: BarrelAnimRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -480,6 +482,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1107747193865450}
   m_Mesh: {fileID: 4300006, guid: 3eba74829d3075843b5a43587469716d, type: 3}
+--- !u!65 &65362678924999158
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107747193865450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 5, z: 10}
+  m_Center: {x: 0.7873547, y: -1.649017, z: 2.949675}
 --- !u!65 &65613364616734596
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -550,3 +564,15 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   IsDashing: {fileID: 11400000, guid: bfd4ae1199d8aec439c08b24b03a305f, type: 2}
+--- !u!114 &114996022256150438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107747193865450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5ec9d260bf5ee479e637acbf059ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GoSlow: {fileID: 11400000, guid: ae42e5f6eafeefb459a602a61a3b1668, type: 2}

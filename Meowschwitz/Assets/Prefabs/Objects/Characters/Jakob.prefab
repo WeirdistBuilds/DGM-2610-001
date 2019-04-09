@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 114100421170318600}
   - component: {fileID: 114458139192152218}
   - component: {fileID: 114552667583372272}
+  - component: {fileID: 114694508662410084}
   m_Layer: 11
   m_Name: Jakob
   m_TagString: Player
@@ -521,6 +522,18 @@ MonoBehaviour:
   DashMultiplier: 6
   BaseSpeed: {fileID: 11400000, guid: 1648ccc263211e343896fe749e5a1786, type: 2}
   DefaultSpeed: 15
+--- !u!114 &114694508662410084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596013572389462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193647d43fd4dc7498d3fd6b4e69b9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FallDistance: -20
 --- !u!114 &114881899950647400
 MonoBehaviour:
   m_ObjectHideFlags: 1

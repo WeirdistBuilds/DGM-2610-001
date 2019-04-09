@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 114024818951629554}
   - component: {fileID: 114673007349211564}
   - component: {fileID: 114210809205167086}
+  - component: {fileID: 114111776073486802}
   - component: {fileID: 114000166884117960}
   m_Layer: 12
   m_Name: Hunter
@@ -352,7 +353,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 69d5205611436e4418052e6c927972f9, type: 2}
+  - {fileID: 2100000, guid: 70b0969ca2f28ec4daf8583ea107574c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -494,8 +495,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.35087585, y: 1.9140037, z: 0.4}
-  m_Center: {x: 1.2385864, y: 0.05700189, z: 0}
+  m_Size: {x: 2.5, y: 2, z: 0.4}
+  m_Center: {x: 0.25, y: 0, z: 0}
 --- !u!114 &114000166884117960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -530,6 +531,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CharacterMover: {fileID: 11400000, guid: 11c702cde2d03074b9da8a2066030b1e, type: 2}
+--- !u!114 &114111776073486802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341308929756690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193647d43fd4dc7498d3fd6b4e69b9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FallDistance: -20
 --- !u!114 &114210809205167086
 MonoBehaviour:
   m_ObjectHideFlags: 1

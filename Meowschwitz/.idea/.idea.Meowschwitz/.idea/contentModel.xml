@@ -92,6 +92,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CharacterMovement" t="Include">
+            <e p="DestroyonFall.cs" t="Include" />
             <e p="EnemyJumpGenerator.cs" t="Include" />
             <e p="HunterController" t="Include">
               <e p="MoveEnemySingleJump.cs" t="Include" />
