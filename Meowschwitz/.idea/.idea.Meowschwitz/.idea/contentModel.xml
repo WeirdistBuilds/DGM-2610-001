@@ -110,6 +110,7 @@
               <e p="MoveSingleJumpInfinite.cs" t="Include" />
             </e>
             <e p="PositionReader.cs" t="Include" />
+            <e p="Resetter.cs" t="Include" />
             <e p="StayCentered.cs" t="Include" />
             <e p="TruckController" t="Include">
               <e p="MoveTruck.cs" t="Include" />

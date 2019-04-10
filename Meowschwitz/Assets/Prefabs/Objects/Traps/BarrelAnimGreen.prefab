@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33348037783399026}
   - component: {fileID: 23485522475444606}
   - component: {fileID: 65623809294444632}
-  - component: {fileID: 114889636489277018}
+  - component: {fileID: 114625336804580566}
   m_Layer: 0
   m_Name: Oil
   m_TagString: Untagged
@@ -552,6 +552,17 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   IsDashing: {fileID: 11400000, guid: bfd4ae1199d8aec439c08b24b03a305f, type: 2}
+--- !u!114 &114625336804580566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104181661967256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f7c13792dc1db42844089b10206e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114832258348959262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -564,15 +575,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activateAnim: {fileID: 0}
---- !u!114 &114889636489277018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1104181661967256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f5ec9d260bf5ee479e637acbf059ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GoSlow: {fileID: 11400000, guid: ae42e5f6eafeefb459a602a61a3b1668, type: 2}
