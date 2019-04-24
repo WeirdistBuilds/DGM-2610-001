@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-[CreateAssetMenu(fileName = "Popper", menuName = "Scriptable Objects/Popper")]
+[CreateAssetMenu(fileName = "NewSOPopper", menuName = "Scriptable Objects/SOPopper")]
 
-public class Popper : ScriptableObject
+public class SOPopper : ScriptableObject
 {
 	private Rigidbody[] rigidBodies;
 

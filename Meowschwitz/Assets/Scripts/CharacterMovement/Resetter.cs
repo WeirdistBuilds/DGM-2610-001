@@ -5,6 +5,7 @@ public class Resetter : MonoBehaviour
 
 	public SOBool ShouldJump, HunterPresent, IsDashing;
 	public SOFloat BaseSpeed;
+	public SOInt CatCounter;
 	public float SpeedReset;
 	
 	void Start ()
@@ -13,5 +14,6 @@ public class Resetter : MonoBehaviour
 		HunterPresent.Value = false;
 		IsDashing.Value = false;
 		BaseSpeed.value = SpeedReset;
+		CatCounter.value = 0;
 	}
 }

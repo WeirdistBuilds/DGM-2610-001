@@ -92,9 +92,15 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CharacterMovement" t="Include">
+            <e p="CatController" t="Include">
+              <e p="MoveCat.cs" t="Include" />
+              <e p="RandomMaterial.cs" t="Include" />
+            </e>
             <e p="DestroyonFall.cs" t="Include" />
             <e p="EnemyJumpGenerator.cs" t="Include" />
             <e p="HunterController" t="Include">
+              <e p="HunterAnimationSetter.cs" t="Include" />
+              <e p="HunterAnimator.cs" t="Include" />
               <e p="MoveEnemySingleJump.cs" t="Include" />
             </e>
             <e p="Jump.cs" t="Include" />
@@ -108,13 +114,12 @@
               <e p="FlipPlayer.cs" t="Include" />
               <e p="MoveSingleJump.cs" t="Include" />
               <e p="MoveSingleJumpInfinite.cs" t="Include" />
+              <e p="PlayerAnimationSetter.cs" t="Include" />
+              <e p="PlayerAnimator.cs" t="Include" />
             </e>
             <e p="PositionReader.cs" t="Include" />
             <e p="Resetter.cs" t="Include" />
             <e p="StayCentered.cs" t="Include" />
-            <e p="TruckController" t="Include">
-              <e p="MoveTruck.cs" t="Include" />
-            </e>
           </e>
           <e p="Environmental" t="Include">
             <e p="CameraController.cs" t="Include" />
@@ -128,13 +133,18 @@
             <e p="EventTriggerJump.cs" t="Include" />
             <e p="TrapTrigger.cs" t="Include" />
           </e>
+          <e p="GameData" t="Include">
+            <e p="CatCounter.cs" t="Include" />
+          </e>
           <e p="ScriptableObjectScripts" t="Include">
-            <e p="ChildActivator.cs" t="Include" />
-            <e p="Popper.cs" t="Include" />
             <e p="SOBool.cs" t="Include" />
             <e p="SOBoolChanger.cs" t="Include" />
+            <e p="SOChildActivator.cs" t="Include" />
             <e p="SOFloat.cs" t="Include" />
             <e p="SOGameObject.cs" t="Include" />
+            <e p="SOInstantiate.cs" t="Include" />
+            <e p="SOInt.cs" t="Include" />
+            <e p="SOPopper.cs" t="Include" />
             <e p="SOVector3.cs" t="Include" />
           </e>
           <e p="Traps" t="Include">

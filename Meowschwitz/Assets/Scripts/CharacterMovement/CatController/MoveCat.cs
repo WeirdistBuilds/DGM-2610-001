@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu]
-public class MoveTruck : MoveBase
+public class MoveCat : MoveBase
 {
 	public override void Move(CharacterController controller)
 	{
