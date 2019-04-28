@@ -7,6 +7,9 @@ public class PlayerAnimator : MonoBehaviour
 	public SOBool isDashing;
 	private Animator myAnimator;
 	
+	public Transform RunningParticle;
+	public Transform DashingParticle;
+	
 
 	void Start ()
 	{
@@ -18,5 +21,24 @@ public class PlayerAnimator : MonoBehaviour
 		myAnimator.SetBool("isDashing", isDashing.Value);
 		myAnimator.SetBool("isJumping", isJumping.Value);
 		myAnimator.SetBool("isRunning", isRunning.Value);
+
+		if (isDashing.Value)
+		{
+			DashingParticle.GetComponent<ParticleSystem>().enableEmission = true;
+		}
+		else
+		{
+			DashingParticle.GetComponent<ParticleSystem>().enableEmission = false;
+		}
+		
+		if (isRunning.Value)
+		{
+			RunningParticle.GetComponent<ParticleSystem>().enableEmission = true;
+		}
+		else
+		{
+			RunningParticle.GetComponent<ParticleSystem>().enableEmission = false;
+		}
+			
 	}
 }

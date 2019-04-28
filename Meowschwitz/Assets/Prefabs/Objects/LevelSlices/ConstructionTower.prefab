@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 65176957955775454}
   m_Layer: 0
   m_Name: MixerAnim
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 4284897122337014}
   m_Layer: 9
   m_Name: Ground3x2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2080,7 +2080,7 @@ GameObject:
   - component: {fileID: 65081558827677608}
   m_Layer: 0
   m_Name: CatCarrierAnim
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3071,7 +3071,7 @@ GameObject:
   - component: {fileID: 4462324110565108}
   m_Layer: 0
   m_Name: CatCarrierEmpty
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5638,7 +5638,7 @@ GameObject:
   - component: {fileID: 114739977085519516}
   m_Layer: 12
   m_Name: HunterGenerator
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20600,14 +20600,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1200112224820100}
-  m_LocalRotation: {x: -0, y: 0.98427796, z: -0, w: 0.17662683}
-  m_LocalPosition: {x: -9.953487, y: 16, z: 9.797398}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -6.6074595, y: 16, z: 10.321645}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4795223502977266}
   m_Father: {fileID: 4997951909241548}
   m_RootOrder: 28
-  m_LocalEulerAnglesHint: {x: 0, y: 159.65302, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4463822604471158
 Transform:
   m_ObjectHideFlags: 1

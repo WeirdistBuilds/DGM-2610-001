@@ -109,11 +109,13 @@
             <e p="MoveEnemy.cs" t="Include" />
             <e p="MoveWithAxis.cs" t="Include" />
             <e p="PlayerController" t="Include">
+              <e p="AlertActivator.cs" t="Include" />
               <e p="CarrierPop.cs" t="Include" />
               <e p="DashPlayer.cs" t="Include" />
               <e p="FlipPlayer.cs" t="Include" />
               <e p="MoveSingleJump.cs" t="Include" />
               <e p="MoveSingleJumpInfinite.cs" t="Include" />
+              <e p="ParticleSwitcher.cs" t="Include" />
               <e p="PlayerAnimationSetter.cs" t="Include" />
               <e p="PlayerAnimator.cs" t="Include" />
             </e>
@@ -142,7 +144,6 @@
             <e p="SOChildActivator.cs" t="Include" />
             <e p="SOFloat.cs" t="Include" />
             <e p="SOGameObject.cs" t="Include" />
-            <e p="SOInstantiate.cs" t="Include" />
             <e p="SOInt.cs" t="Include" />
             <e p="SOPopper.cs" t="Include" />
             <e p="SOVector3.cs" t="Include" />
@@ -151,10 +152,13 @@
             <e p="DashActivator.cs" t="Include" />
             <e p="HunterDetector.cs" t="Include" />
             <e p="HunterGenerator.cs" t="Include" />
+            <e p="InstantiateAtPosition.cs" t="Include" />
             <e p="KillAllBox.cs" t="Include" />
             <e p="KillEnemyBox.cs" t="Include" />
             <e p="KillPlayerBox.cs" t="Include" />
             <e p="LayerShifter.cs" t="Include" />
+            <e p="ParticleActivator.cs" t="Include" />
+            <e p="Rotator.cs" t="Include" />
             <e p="SlowEnemy.cs" t="Include" />
           </e>
         </e>

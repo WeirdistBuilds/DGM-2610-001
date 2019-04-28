@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 114946382702607712}
   m_Layer: 0
   m_Name: GarageAnim
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 4714828061512732}
   m_Layer: 0
   m_Name: CatCarrierEmpty
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3195,7 +3195,7 @@ GameObject:
   - component: {fileID: 65267886888672482}
   m_Layer: 0
   m_Name: CatCarrierAnim
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3939,7 +3939,7 @@ GameObject:
   - component: {fileID: 4126218837962196}
   m_Layer: 9
   m_Name: Ground3x2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6354,7 +6354,7 @@ GameObject:
   - component: {fileID: 114517328384956862}
   m_Layer: 12
   m_Name: HunterGenerator
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
