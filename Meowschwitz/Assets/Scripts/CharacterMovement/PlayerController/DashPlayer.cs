@@ -8,8 +8,10 @@ public class DashPlayer : MonoBehaviour
 	private int defaultTime = 1;
 
 	public float DashMultiplier;
+	public SOFloat DashMeter;
 	public SOFloat BaseSpeed;
 	public float DefaultSpeed;
+	public float DashValue = 33;
 	
 	
 	private void Start()
@@ -20,14 +22,13 @@ public class DashPlayer : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetButtonDown("Fire1"))
-		{
-			BaseSpeed.value *= DashMultiplier;
-			if (!IsDashing.Value)
-			{
-				StartCoroutine(Timer());
-			}
-		}
+		if (!Input.GetButtonDown("Fire1")) return;
+		if (!(DashMeter.Value > DashValue)) return;
+		BaseSpeed.value *= DashMultiplier;
+
+		if (IsDashing.Value) return;
+		StartCoroutine(Timer());
+		DashMeter.value -= DashValue;
 	}
 	
 	private IEnumerator Timer()

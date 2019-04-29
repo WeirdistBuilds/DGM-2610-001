@@ -137,6 +137,8 @@
           </e>
           <e p="GameData" t="Include">
             <e p="CatCounter.cs" t="Include" />
+            <e p="CatCounterUI.cs" t="Include" />
+            <e p="DashCounter.cs" t="Include" />
           </e>
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOBool.cs" t="Include" />

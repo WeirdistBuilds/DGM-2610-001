@@ -3201,8 +3201,10 @@ MonoBehaviour:
   IsDashing: {fileID: 11400000, guid: bfd4ae1199d8aec439c08b24b03a305f, type: 2}
   TimeLeft: 1
   DashMultiplier: 6
+  DashMeter: {fileID: 11400000, guid: f1223ef79e42b164e8c2e9569e6b9ae8, type: 2}
   BaseSpeed: {fileID: 11400000, guid: 1648ccc263211e343896fe749e5a1786, type: 2}
   DefaultSpeed: 15
+  DashValue: 33
 --- !u!114 &114692558586721786
 MonoBehaviour:
   m_ObjectHideFlags: 1
