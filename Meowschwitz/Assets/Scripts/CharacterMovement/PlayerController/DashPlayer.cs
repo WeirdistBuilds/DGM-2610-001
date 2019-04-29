@@ -12,6 +12,7 @@ public class DashPlayer : MonoBehaviour
 	public SOFloat BaseSpeed;
 	public float DefaultSpeed;
 	public float DashValue = 33;
+	public AudioSource DashSound;
 	
 	
 	private void Start()
@@ -27,8 +28,9 @@ public class DashPlayer : MonoBehaviour
 		BaseSpeed.value *= DashMultiplier;
 
 		if (IsDashing.Value) return;
-		StartCoroutine(Timer());
 		DashMeter.value -= DashValue;
+		DashSound.Play();
+		StartCoroutine(Timer());
 	}
 	
 	private IEnumerator Timer()

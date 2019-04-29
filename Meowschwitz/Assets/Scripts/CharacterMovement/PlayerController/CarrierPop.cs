@@ -7,6 +7,7 @@ public class CarrierPop : MonoBehaviour
 	private bool activated;
 	public GameObject Jakob;
 	public SOGameObject cameraFocus;
+	public AudioSource OpenSound;
 
 	void Start ()
 	{
@@ -18,6 +19,7 @@ public class CarrierPop : MonoBehaviour
 		if (Input.GetButton("Fire1") && !activated)
 		{
 			animator.SetBool("Activate", true);
+			OpenSound.Play();
 			var jakob = Instantiate(Jakob, transform);
 			jakob.transform.parent = transform.parent.parent.parent;
 			jakob.transform.rotation = Quaternion.identity;

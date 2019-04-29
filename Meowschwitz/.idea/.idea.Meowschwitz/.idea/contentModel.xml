@@ -118,6 +118,7 @@
               <e p="ParticleSwitcher.cs" t="Include" />
               <e p="PlayerAnimationSetter.cs" t="Include" />
               <e p="PlayerAnimator.cs" t="Include" />
+              <e p="PlayerSFX.cs" t="Include" />
             </e>
             <e p="PositionReader.cs" t="Include" />
             <e p="Resetter.cs" t="Include" />
@@ -126,7 +127,11 @@
           <e p="Environmental" t="Include">
             <e p="CameraController.cs" t="Include" />
             <e p="LevelGenerator.cs" t="Include" />
+            <e p="MusicPlayer.cs" t="Include" />
             <e p="ParallaxController.cs" t="Include" />
+            <e p="Sounds" t="Include">
+              <e p="SoundPlayer.cs" t="Include" />
+            </e>
             <e p="TimeChanger.cs" t="Include" />
           </e>
           <e p="Events" t="Include">
@@ -139,6 +144,7 @@
             <e p="CatCounter.cs" t="Include" />
             <e p="CatCounterUI.cs" t="Include" />
             <e p="DashCounter.cs" t="Include" />
+            <e p="Quitter.cs" t="Include" />
           </e>
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOBool.cs" t="Include" />
